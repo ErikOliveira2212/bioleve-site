@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bioleve - Emagreça com Saúde</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f1fdf6;
+      color: #2e7d32;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #d8f3dc;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #ffffff;
+      border-top: 4px solid #81c784;
+      border-bottom: 4px solid #81c784;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    .cta button {
+      background-color: #388e3c;
+      color: white;
+      font-size: 1.2rem;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .cta button:hover {
+      background-color: #2e7d32;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #e8f5e9;
+      color: #4caf50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="Bioleve logo" />
+      Bioleve
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Emagreça com Saúde e Leveza</h1>
+    <p>Com ingredientes naturais, Bioleve ajuda você a perder peso de forma saudável, mantendo energia e bem-estar no dia a dia.</p>
+    <div class="cta">
+      <button onclick="alert('Simulação: redirecionando para o pagamento...')">Quero Começar Agora</button>
+    </div>
+  </section>
+
+  <footer>
+    Produto 100% natural &bull; Indicado para maiores de 18 anos &bull; Consulte seu nutricionista ou médico antes de usar
+  </footer>
+</body>
+</html>
